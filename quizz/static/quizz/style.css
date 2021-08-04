@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(226, 217, 210);
+}
+#quiz-form{
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
