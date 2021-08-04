@@ -25,7 +25,7 @@ SECRET_KEY = '_$do5)z1bz&644c(il+k3$@&v7jj-m*zn-2ijnju39!a(i6k*e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [127.0.0.1]
+ALLOWED_HOSTS = ['127.0.0.1','gquizz.herokuapp.com']
 
 
 # Application definition
