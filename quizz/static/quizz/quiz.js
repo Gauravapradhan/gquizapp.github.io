@@ -181,6 +181,7 @@ let state=0;
 quizForm.addEventListener('submit',e=>{
     e.preventDefault()
     sendData()    
+    alert("submitted")
     state=1;
    
 })
