@@ -164,8 +164,8 @@ const sendData=()=>{
                         }
                     }
                 }
-                //const body =document.getElementsByTagName('BODY')[0]
-                resultBox.append(resDiv)
+                const body =document.getElementsByTagName('BODY')[0]
+                body.append(resDiv)
         
             })
 
@@ -180,6 +180,7 @@ const sendData=()=>{
 let state=0;
 quizForm.addEventListener('submit',e=>{
     e.preventDefault()
+    sendData()    
     state=1;
-    sendData()     
+   
 })
